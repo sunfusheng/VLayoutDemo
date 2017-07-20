@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addStickyLayoutData(String text) {
         StickyLayoutHelper helper = new StickyLayoutHelper();
-        helper.setOffset(0);
+//        helper.setOffset(0);
         TextAdapter adapter = new TextAdapter(this, helper, text);
         adapters.add(adapter);
     }
